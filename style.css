@@ -1,0 +1,44 @@
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  animation: heart linear infinite 0.8s;
+}
+
+@keyframes heart {
+  0% {
+    transform: translate(-50%, -50%) scale(1.07);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.img {
+  width: 1600px;
+  height: 700px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+#img1 {
+  background-image: url("./img/1.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 700px;
+  background-color: #ffffff;
+}
+
+#img2 {
+  background-image: url("./img/2.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 700px;
+  margin-left: 98px;
+}
