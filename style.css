@@ -3,8 +3,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   animation: heart linear infinite 0.8s;
 }
 
@@ -21,10 +21,8 @@ img {
 }
 
 .img {
-  width: 1600px;
-  height: 700px;
-  display: inline-block;
-  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
 
 #img1 {
