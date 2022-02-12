@@ -22,21 +22,19 @@ img {
 
 .img {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #img1 {
   background-image: url("./img/1.jpg");
   background-size: cover;
-  width: 700px;
-  height: 700px;
-  background-color: #ffffff;
+  width: 600px;
+  height: 600px;
 }
 
 #img2 {
   background-image: url("./img/2.jpg");
   background-size: cover;
-  width: 700px;
-  height: 700px;
-  margin-left: 98px;
+  width: 600px;
+  height: 600px;
 }
